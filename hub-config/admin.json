@@ -6,7 +6,9 @@
         "name": "Paolo Milano",
         "email": "paolo.milano@isi.it"
     },
-    "repository_url": "https://github.com/european-modelling-hubs/RespiCast-Covid19",
+    "repository": {
+        "name": "https://github.com/european-modelling-hubs/RespiCast-Covid19"
+    },
     "file_format": ["csv"],
     "timezone": "Europe/Stockholm"
 }

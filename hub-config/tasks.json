@@ -1,5 +1,5 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/schemas/main/v2.0.0/tasks-schema.json",
+    "schema_version": "https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/schemas/main/v3.0.1/tasks-schema.json",
     "rounds": [
         {
             "round_id_from_variable": true,
@@ -134,12 +134,12 @@
                     "target_metadata": [
                         {
                            "target_id": "hospital_admissions",
-                           "target_name": "Weekly number for Influenza like illness",
-                           "target_units": "cases per 100,000 population",
+                           "target_name": "Weekly number of new Covid19 hospital admissions",
+                           "target_units": "Number of new cases",
                            "target_keys": {
-                               "target": "ILI incidence"
+                               "target": "hospital_admissions"
                            },
-                           "description": "This target represents the non-negative number of new COVID19 hospital admissions in the week ending on the date [horizon] weeks after the reference_date",
+                           "description": "This target represents the non-negative number of new Covid19 hospital admissions in the week ending on the date [horizon] weeks after the reference_date",
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
