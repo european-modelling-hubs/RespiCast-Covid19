@@ -5,9 +5,7 @@ on:
   pull_request_target:
     branches: main
     paths:
-# Forecast submission is temporary disabled
-# IMPORTANT: ENABLE BEFORE NEW SEASON STARTS
-#      - 'model-output/**'
+      - 'model-output/**'
       - 'model-metadata/*'
       - '!**README**'
       - '!**.md'
@@ -101,7 +99,7 @@ jobs:
 
   call-persisting-wf:
     needs: validate-submission_job
-    uses: european-modelling-hubs//.github/workflows/persist_changes.yml@main
+    uses: european-modelling-hubs/RespiCast-Covid19/.github/workflows/persist_changes.yml@main
     with:
       changes-list: ${{ needs.validate-submission_job.outputs.changed_files }}
 
