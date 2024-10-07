@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: Covid19 Test Model
+team_abbr: ISI
+model_abbr: CovTestModel
+model_contributors:
+  - name: Paolo Milano
+    affiliation: ISI Foundation
+    email: paolo.milano@isi.it
+team_model_designation: primary
+methods: A test only model for testing submission process
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
