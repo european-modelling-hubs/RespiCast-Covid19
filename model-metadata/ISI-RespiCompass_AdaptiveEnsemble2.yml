@@ -9,7 +9,7 @@ model_contributors:
   - name: Nicolò Gozzi
     affiliation: ISI Foundation
     email: nicolo.gozzi@isi.it
-team_model_designation: primary
+team_model_designation: secondary
 methods: An adaptive ensemble of multiple models contributing to RespiCompass scenario projections for COVID-19.
 data_inputs: ECDC ERVISS and RespiCompass projections for COVID-19
 license: CC-BY-4.0
