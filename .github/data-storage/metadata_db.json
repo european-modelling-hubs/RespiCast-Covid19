@@ -1,6 +1,7 @@
 {
     "changes": [
+        "model-metadata/ISI-CovidABCaster.yml",
         "model-metadata/ISI-RC_AdaptEns2.yml",
-        "model-metadata/ISI-CovidABCaster.yml"
+        "model-metadata/ISI-CovBcast.yml"
     ]
 }
