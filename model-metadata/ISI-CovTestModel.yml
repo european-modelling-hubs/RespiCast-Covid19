@@ -7,6 +7,6 @@ model_contributors:
     affiliation: ISI Foundation
     email: paolo.milano@isi.it
 team_model_designation: primary
-methods: A test only model for testing submission process
+methods: A test only model for testing submission process.
 license: CC-BY-4.0
 data_inputs: ECDC ERVISS
