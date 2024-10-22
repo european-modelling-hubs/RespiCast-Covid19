@@ -1,5 +1,5 @@
 origin_date,target,target_end_date,horizon,location,output_type,output_type_id,value
-2024-10-16,hospital admissions,2024-10-13,1,BE,quantile,0.01,68
+2024-10-16,hospital admissions,2024-10-13,1,BE,quantile,0.01,67
 2024-10-16,hospital admissions,2024-10-20,2,BE,quantile,0.01,49
 2024-10-16,hospital admissions,2024-10-27,3,BE,quantile,0.01,38
 2024-10-16,hospital admissions,2024-11-03,4,BE,quantile,0.01,31
