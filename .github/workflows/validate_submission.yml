@@ -41,85 +41,42 @@ jobs:
             echo "$file was changed"
           done
 
+      # Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
       # Check if some submission is outside allowed folders
       - name: Check submission paths
+        env: 
+          pr_changes: ${{ steps.get_changed_files.outputs.all_changed_files }}
+          
         run: |
-          echo "Files changed: ${{ steps.get_changed_files.outputs.all_changed_files }}"
+          import json
+          import os
           
-          # Lista delle cartelle consentite
-          ALLOWED_FOLDERS=("model-metadata/" "model-output/")
-          
-          # Inizializza una variabile per i file fuori dalle cartelle consentite
-          FILES_OUTSIDE_FOLDERS=""
-          
-          # Itera su tutti i file modificati
-          for FILE in $(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[]'); do
-            MATCH_FOUND=false
-            echo "Check file $FILE"
-            
-            # Controlla se il file si trova in una delle cartelle consentite
-            for FOLDER in "${ALLOWED_FOLDERS[@]}"; do
-              echo "File: $FILE, folder: $FOLDER"
-            
-              if [[ "$FILE" == "$FOLDER"* ]]; then
-                MATCH_FOUND=true
-                break
-              fi
-            done
-            
-            # Se non è stato trovato un match, aggiungi il file alla lista dei file non consentiti
-            if [ "$MATCH_FOUND" = false ]; then
-              FILES_OUTSIDE_FOLDERS="${FILES_OUTSIDE_FOLDERS} $FILE"
-            fi
-          done
-          
-          # Se ci sono file fuori dalle cartelle consentite, fallisce la build
-          if [ ! -z "$FILES_OUTSIDE_FOLDERS" ]; then
-            echo "Error: PR contains files outside the allowed folders."
-            echo "Files outside allowed folders: $FILES_OUTSIDE_FOLDERS"
-            # exit 1
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Allowed folders list 
+          allowed_folders = ["model-metadata/", "model-output/"]
 
+          # Get file list
+          changed_files_list = os.getenv("pr_changes", "")
+          print(f'PR Changes list: {changed_files_list}')
 
-      # Look for file outside allowed folders
-      # ---------------------------------------
-      - name: Check if file are outside the allowed folders
-        run: |          
-          # List of allowed folders
-          ALLOWED_FOLDERS=("model-output/" "model-metadata/")
+          # Init list for file outside allowed folders
+          files_outside_folders = []
           
-          # Init var for not allowed files
-          FILES_OUTSIDE_FOLDERS=""
+          for file in changed_files_list:
+              if not any(file.startswith(folder) for folder in allowed_folders):
+                  files_outside_folders.append(file)
+                    
+          # Build fails if there are files outside allowed folders
+          if files_outside_folders:
+              print(f"Error: PR contains files outside the allowed folders: {files_outside_folders}")
+              exit(1)
+          else:
+              print("All files are within the allowed folders.")
           
-          # Iterate over changes
-          for FILE in $(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[]'); do
-            MATCH_FOUND=false
-            
-            # Check if file is under an allowed folder
-            for FOLDER in "${ALLOWED_FOLDERS[@]}"; do
-              if [[ "$FILE" == "$FOLDER"* ]]; then
-                MATCH_FOUND=true
-                break
-              fi
-            done
-            
-            # If not mathced, add to forbidden list
-            if [ "$MATCH_FOUND" = false ]; then
-              FILES_OUTSIDE_FOLDERS="${FILES_OUTSIDE_FOLDERS} $FILE"
-            fi
-          done
-          
-          # If one or more file outside allowed folders are present, submission fails
-          if [ ! -z "$FILES_OUTSIDE_FOLDERS" ]; then
-            echo "Error: PR contains files outside the allowed folders."
-            echo "Files outside allowed folders: $FILES_OUTSIDE_FOLDERS"
-            exit 1
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
       - uses: r-lib/actions/setup-r@v2
         with:
