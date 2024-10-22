@@ -55,9 +55,12 @@ jobs:
           # Itera su tutti i file modificati
           for FILE in $(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[]'); do
             MATCH_FOUND=false
+            echo "Check file $FILE"
             
             # Controlla se il file si trova in una delle cartelle consentite
             for FOLDER in "${ALLOWED_FOLDERS[@]}"; do
+              echo "File: $FILE, folder: $FOLDER"
+            
               if [[ "$FILE" == "$FOLDER"* ]]; then
                 MATCH_FOUND=true
                 break
