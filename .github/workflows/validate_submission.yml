@@ -47,35 +47,23 @@ jobs:
         with:
           python-version: '3.x'
 
+      # Checkout the python tools repo
+      # used to verify the PR changes 
+      # ------------------------------------------
+      - name: checkout python tools repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: 'european-modelling-hubs/hub-tools'
+          ref: 'main'
+          path: tools
+
       # Check if some submission is outside allowed folders
       - name: Check submission paths
         env: 
-          pr_changes: ${{ steps.get_changed_files.outputs.all_changed_files }}
-          
+          pr_changes: ${{ steps.get_changed_files.outputs.all_changed_files }}          
         run: |
-          import json
-          import os
-          
-          # Allowed folders list 
-          allowed_folders = ["model-metadata/", "model-output/"]
-
-          # Get file list
-          changed_files_list = os.getenv("pr_changes", "")
-          print(f'PR Changes list: {changed_files_list}')
-
-          # Init list for file outside allowed folders
-          files_outside_folders = []
-          
-          for file in changed_files_list:
-              if not any(file.startswith(folder) for folder in allowed_folders):
-                  files_outside_folders.append(file)
-                    
-          # Build fails if there are files outside allowed folders
-          if files_outside_folders:
-              print(f"Error: PR contains files outside the allowed folders: {files_outside_folders}")
-              exit(1)
-          else:
-              print("All files are within the allowed folders.")
+          python ./tools/code/check_submission_paths.py 
           
 
       - uses: r-lib/actions/setup-r@v2
