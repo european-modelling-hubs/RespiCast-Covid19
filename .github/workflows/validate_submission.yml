@@ -44,7 +44,7 @@ jobs:
       # Check if some submission is outside allowed folders
       - name: Check submission paths
         run: |
-          echo "Files changed: ${{ steps.changed-files.outputs.all_changed_files }}"
+          echo "Files changed: ${{ steps.get_changed_files.outputs.all_changed_files }}"
           
           # Lista delle cartelle consentite
           ALLOWED_FOLDERS=("model-metadata/" "model-output/")
