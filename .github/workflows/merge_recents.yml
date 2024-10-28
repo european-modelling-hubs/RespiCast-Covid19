@@ -51,7 +51,7 @@ jobs:
         disease_name: ${{ vars.DISEASE_NAME }}
         
       run: |
-        python ./tools/code/merge_recent_data.py --repository "./repo" --source_list "ERVISS FluID"
+        python ./tools/code/merge_recent_data.py --repository "./repo" --source_list "ERVISS"
 
     - name: Commit data repo changes
       uses: EndBug/add-and-commit@v7

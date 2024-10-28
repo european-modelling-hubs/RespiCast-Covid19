@@ -30,7 +30,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: 'european-modelling-hubs/fRespiCast-Covid19'
+        repository: 'european-modelling-hubs/RespiCast-Covid19'
         ref: 'main'
         path: './repo/'
 

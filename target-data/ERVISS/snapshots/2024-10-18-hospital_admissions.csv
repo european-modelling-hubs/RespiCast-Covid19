@@ -1,4 +1,4 @@
-target,location,truth_date,yearweek,value
+target,location,truth_date,year_week,value
 hospital admissions,AT,2023-06-18,2023-W24,1
 hospital admissions,AT,2023-06-11,2023-W23,2
 hospital admissions,AT,2023-06-04,2023-W22,4
