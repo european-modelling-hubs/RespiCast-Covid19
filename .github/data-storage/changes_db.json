@@ -1,1 +1,18 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-11-06-ISI-RC_AdaptEns2.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2024-11-06-ECDC-SARIMA.csv"
+            ]
+        }
+    ]
+}
