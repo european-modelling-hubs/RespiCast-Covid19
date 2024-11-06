@@ -4,11 +4,11 @@ on:
 
   workflow_dispatch:
 
-  # workflow_run:
-  #   workflows: [ForecastUpload]
-      
-  #   types:
-  #     - completed
+  workflow_run:
+    workflows: [ForecastUpload]
+    
+    types:
+      - completed
     
 jobs:
 
@@ -52,7 +52,7 @@ jobs:
     - name: compute baseline
       id: compute_baseline
       run: |
-        python ./tools/code/quantile_baseline.py --hub_path ./repo --targets "hospital_admissions" --symmetrize True --nsamples 10000 --horizon 4 --team_abbr "respicastCovid19" --model_abbr "quantileBaseline" --submission_end_weekday 2
+        python ./tools/code/quantile_baseline.py --hub_path ./repo --targets "hospital_admissions" --symmetrize True --nsamples 10000 --horizon 4 --team_abbr "respicast" --model_abbr "quantileBaseline" --submission_end_weekday 2
 
     - name: Commit data repo changes
       uses: EndBug/add-and-commit@v7
