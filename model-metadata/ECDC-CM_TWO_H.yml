@@ -1,7 +1,7 @@
 team_name: European Centre for Disease Prevention and Control
-model_name: ECDC compartmental model (H)
+model_name: Compartmental model (H)
 team_abbr: ECDC
-model_abbr: ECDC_CM_TWO_H
+model_abbr: CM_TWO_H
 model_contributors:
   - name: ECDC Mathematical Modelling Team 
     affiliation: European Centre for Disease Prevention and Control
