@@ -1,0 +1,11 @@
+team_name: European Centre for Disease Prevention and Control
+model_name: Compartmental model (H)
+team_abbr: ECDC
+model_abbr: CM_TWO_H
+model_contributors:
+  - name: ECDC Mathematical Modelling Team 
+    affiliation: European Centre for Disease Prevention and Control
+    email: modelling@ecdc.europa.eu
+team_model_designation: secondary
+data_inputs: ECDC ERVISS
+methods: An SIRS-type model with seasonality fitted to hospitalisations
