@@ -1,0 +1,11 @@
+team_name: safinea
+model_name: covidCast
+team_abbr: safinea
+model_abbr: covidCast
+model_contributors:
+  - name: Helen Johnson 
+    affiliation: Safinea Ltd.
+    email: helen.johnson@safinea.eu
+team_model_designation: primary
+data_inputs: ECDC ERVISS
+methods: An SIRS-type model with seasonality fitted to hospitalisations
