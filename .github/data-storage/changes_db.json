@@ -1,29 +1,43 @@
 {
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2024-11-27-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_TWO_H",
+            "changes": [
+                "model-output/ECDC-CM_TWO_H/2024-11-27-ECDC-CM_TWO_H.csv"
+            ]
+        },
+        {
+            "model": "CM_TWO_HC",
+            "changes": [
+                "model-output/ECDC-CM_TWO_HC/2024-11-27-ECDC-CM_TWO_HC.csv"
+            ]
+        }
+    ],
     "ISI": [
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-11-27-ISI-RC_AdaptEns2.csv"
+            ]
+        },
         {
             "model": "CovidABCaster",
             "changes": [
-                "model-output/ISI-CovidABCaster/2024-11-20-ISI-CovidABCaster.csv"
+                "model-output/ISI-CovidABCaster/2024-11-27-ISI-CovidABCaster.csv"
             ]
         },
         {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2024-11-20-ISI-CovBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2024-11-20-ISI-RC_AdaptEns2.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-11-20-ItaLuxColab-EpiEKF.csv"
+                "model-output/ISI-CovBcast/2024-11-27-ISI-CovBcast.csv"
             ]
         }
     ]
