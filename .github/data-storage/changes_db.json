@@ -3,27 +3,7 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-12-04-ItaLuxColab-EpiEKF.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "CovBcast",
-            "changes": [
-                "model-output/ISI-CovBcast/2024-12-04-ISI-CovBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2024-12-04-ISI-RC_AdaptEns2.csv"
-            ]
-        },
-        {
-            "model": "CovidABCaster",
-            "changes": [
-                "model-output/ISI-CovidABCaster/2024-12-04-ISI-CovidABCaster.csv"
+                "model-output/ItaLuxColab-EpiEKF/2024-12-11-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ],
@@ -31,33 +11,45 @@
         {
             "model": "CM_TWO_H",
             "changes": [
-                "model-output/ECDC-CM_TWO_H/2024-12-04-ECDC-CM_TWO_H.csv"
+                "model-output/ECDC-CM_TWO_H/2024-12-11-ECDC-CM_TWO_H.csv"
             ]
         },
         {
             "model": "CM_TWO_HC",
             "changes": [
-                "model-output/ECDC-CM_TWO_HC/2024-12-04-ECDC-CM_TWO_HC.csv"
+                "model-output/ECDC-CM_TWO_HC/2024-12-11-ECDC-CM_TWO_HC.csv"
             ]
         },
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2024-12-04-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2024-12-11-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2024-12-04-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2024-12-11-ECDC-soca_simplex.csv"
             ]
         }
     ],
-    "safinea": [
+    "ISI": [
         {
-            "model": "CovidCast",
+            "model": "CovidABCaster",
             "changes": [
-                "model-output/safinea-CovidCast/2024-12-04-safinea-CovidCast.csv"
+                "model-output/ISI-CovidABCaster/2024-12-11-ISI-CovidABCaster.csv"
+            ]
+        },
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2024-12-11-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-12-11-ISI-RC_AdaptEns2.csv"
             ]
         }
     ]
