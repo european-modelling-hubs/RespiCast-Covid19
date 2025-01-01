@@ -1,17 +1,15 @@
 {
-    "ItaLuxColab": [
+    "ECDC": [
         {
-            "model": "EpiEKF",
+            "model": "SARIMA",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-12-25-ItaLuxColab-EpiEKF.csv"
+                "model-output/ECDC-SARIMA/2025-01-01-ECDC-SARIMA.csv"
             ]
-        }
-    ],
-    "ISI": [
+        },
         {
-            "model": "CovidABCaster",
+            "model": "soca_simplex",
             "changes": [
-                "model-output/ISI-CovidABCaster/2024-12-25-ISI-CovidABCaster.csv"
+                "model-output/ECDC-soca_simplex/2025-01-01-ECDC-soca_simplex.csv"
             ]
         }
     ]
