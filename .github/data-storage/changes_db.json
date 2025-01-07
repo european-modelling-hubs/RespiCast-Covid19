@@ -1,15 +1,31 @@
 {
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-01-08-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2025-01-08-ISI-CovidABCaster.csv"
+            ]
+        }
+    ],
     "ECDC": [
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-01-01-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-01-08-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-01-01-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-01-08-ECDC-soca_simplex.csv"
             ]
         }
     ]
