@@ -1,1 +1,7 @@
-{}
+{
+    "hospital admissions": {
+        "changes": [
+            "target-data/ERVISS/snapshots/2025-01-17-hospital_admissions.csv"
+        ]
+    }
+}
