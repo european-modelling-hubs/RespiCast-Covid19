@@ -3,7 +3,7 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-01-22-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-01-29-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ],
@@ -11,7 +11,7 @@
         {
             "model": "CovidABCaster",
             "changes": [
-                "model-output/ISI-CovidABCaster/2025-01-22-ISI-CovidABCaster.csv"
+                "model-output/ISI-CovidABCaster/2025-01-29-ISI-CovidABCaster.csv"
             ]
         }
     ]
