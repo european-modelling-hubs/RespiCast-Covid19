@@ -14,7 +14,7 @@ on:
 jobs:
   
   ensemble_job:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
     runs-on: ubuntu-22.04
     outputs:
       changed_files:  ${{ steps.generate_ensemble.outputs.ensemble_file }}
@@ -36,6 +36,13 @@ jobs:
         repository: 'european-modelling-hubs/hub-tools'
         ref: 'main'
         path: './tools/'
+
+    # Installing lib curl
+    # -------------------------------------------
+    - name: Install lib curl
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev
      
     - uses: r-lib/actions/setup-r@v2
       with:
@@ -46,8 +53,9 @@ jobs:
       run: |
         install.packages("remotes")
         install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubEnsembles")
+        install.packages("hubUtils", dependencies = TRUE)
+        install.packages('hubData', repos = c('https://hubverse-org.r-universe.dev', 'https://cloud.r-project.org'))
+        install.packages("hubEnsembles")
         install.packages("dplyr")
         install.packages("jsonlite")
         install.packages("optparse")
