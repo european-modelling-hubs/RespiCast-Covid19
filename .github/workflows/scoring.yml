@@ -45,6 +45,12 @@ jobs:
         ref: 'main'
         path: './repo/'
 
+    # Installing lib curl
+    # -------------------------------------------
+    - name: Install lib curl
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev 
 
     # Setup R env
     # -------------------------
@@ -58,7 +64,7 @@ jobs:
       run: |
         install.packages("remotes")
         install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
+        install.packages('hubData', repos = c('https://hubverse-org.r-universe.dev', 'https://cloud.r-project.org'))
         install.packages("dplyr")
         install.packages('jsonlite')
         install.packages("optparse")
