@@ -57,7 +57,11 @@ jobs:
       - run: |
           echo "${{ steps.get_changes.outputs.packageJson }}"
 
-          
+      # installing requests specific version because the one installed with 
+      # the os (2.31.0) can casue issues with timeout scenario
+      - name: Installing python additional packages
+        run: pip install requests==2.32.3
+
     
       # Trigger server-side updating and UI deploy
       # --------------------------------------------
@@ -72,7 +76,6 @@ jobs:
           data_type: "scoring"
 
         run: |
-          pip install requests
           python ./tools/code/ws_webhook.py
           
       - name: trace only
