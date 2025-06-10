@@ -1,31 +1,17 @@
 {
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-06-11-ISI-CovBcast.csv"
+            ]
+        }
+    ],
     "ItaLuxColab": [
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-12-18-ItaLuxColab-EpiEKF.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "CM_TWO_H",
-            "changes": [
-                "model-output/ECDC-CM_TWO_H/2024-12-18-ECDC-CM_TWO_H.csv"
-            ]
-        },
-        {
-            "model": "CM_TWO_HC",
-            "changes": [
-                "model-output/ECDC-CM_TWO_HC/2024-12-18-ECDC-CM_TWO_HC.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "SEIR_BRW",
-            "changes": [
-                "model-output/ISI-SEIR_BRW/2024-12-18-ISI-SEIR_BRW.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-06-11-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ]
