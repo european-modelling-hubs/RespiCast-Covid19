@@ -1,15 +1,23 @@
 {
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-07-02-QMUL-ARIMA.csv"
+            ]
+        }
+    ],
     "ECDC": [
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-06-25-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-07-02-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-06-25-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-07-02-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -17,7 +25,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2025-06-25-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2025-07-02-safinea-PRFM.csv"
             ]
         }
     ]
