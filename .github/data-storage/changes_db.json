@@ -1,23 +1,9 @@
 {
-    "ECDC": [
+    "QMUL": [
         {
-            "model": "SARIMA",
+            "model": "ARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-08-06-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2025-08-06-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "CovBcast",
-            "changes": [
-                "model-output/ISI-CovBcast/2025-08-06-ISI-CovBcast.csv"
+                "model-output/QMUL-ARIMA/2025-08-13-QMUL-ARIMA.csv"
             ]
         }
     ]
