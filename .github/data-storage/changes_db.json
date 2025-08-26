@@ -46,5 +46,13 @@
                 "model-output/ECDC-CM_TWO_HC/2025-08-27-ECDC-CM_TWO_HC.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-08-27-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
