@@ -3,15 +3,15 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-08-27-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-09-10-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ],
-    "ISI": [
+    "QMUL": [
         {
-            "model": "CovBcast",
+            "model": "ARIMA",
             "changes": [
-                "model-output/ISI-CovBcast/2025-08-27-ISI-CovBcast.csv"
+                "model-output/QMUL-ARIMA/2025-09-10-QMUL-ARIMA.csv"
             ]
         }
     ],
@@ -19,13 +19,29 @@
         {
             "model": "SARIMA2",
             "changes": [
-                "model-output/ECDC-SARIMA2/2025-08-27-ECDC-SARIMA2.csv"
+                "model-output/ECDC-SARIMA2/2025-09-10-ECDC-SARIMA2.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-08-27-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-09-10-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-09-10-ISI-CovBcast.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-09-10-safinea-PRFM.csv"
             ]
         }
     ]
