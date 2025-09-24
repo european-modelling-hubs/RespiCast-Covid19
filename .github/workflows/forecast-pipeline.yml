@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '10 23 * * 3'
+    - cron: '40 23 * * 3'
 
 jobs:
   trace_job:
