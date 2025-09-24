@@ -4,9 +4,15 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '45 22 * * 3'
+    - cron: '10 23 * * 3'
 
 jobs:
+  trace_job:
+    if: ${{ github.repository_owner == 'european-modelling-hubs' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Job-activated, event -> ${{ github.event_name }}"
+
   
   gen_baseline_job:
     if: ${{ github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') }}
