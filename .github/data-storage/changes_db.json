@@ -1,1 +1,10 @@
-{}
+{
+    "ECDC": [
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2025-10-15-ECDC-CM_THREE.csv"
+            ]
+        }
+    ]
+}
