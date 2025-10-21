@@ -42,5 +42,13 @@
                 "model-output/ISI-CovBcast/2025-10-22-ISI-CovBcast.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-10-22-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
