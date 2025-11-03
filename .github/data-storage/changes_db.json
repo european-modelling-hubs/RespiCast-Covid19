@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-11-05-ISI-CovBcast.csv"
+            ]
+        }
+    ]
+}
