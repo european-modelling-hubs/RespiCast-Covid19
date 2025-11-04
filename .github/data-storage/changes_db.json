@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/ECDC-soca_simplex/2025-11-05-ECDC-soca_simplex.csv"
             ]
+        },
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2025-11-05-ECDC-CM_THREE.csv"
+            ]
         }
     ]
 }
