@@ -40,5 +40,13 @@
                 "model-output/ECDC-CM_THREE/2025-11-19-ECDC-CM_THREE.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-11-19-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
