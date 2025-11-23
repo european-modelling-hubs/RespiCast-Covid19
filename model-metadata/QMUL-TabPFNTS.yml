@@ -1,0 +1,15 @@
+team_name: Queen Mary University of London
+model_name: TabPFNTS Model
+team_abbr: QMUL
+model_abbr: TabPFNTS
+model_contributors:
+  - name: Nicola Perra
+    affiliation: Queen Mary University of London
+    email: n.perra@qmul.ac.uk
+  - name: Douhan Wang
+    affiliation: Queen Mary University of London
+    email: douhan.wang@qmul.ac.uk
+team_model_designation: primary
+methods: An augmented transformer for time series prediction
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
