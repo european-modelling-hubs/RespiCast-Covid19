@@ -47,6 +47,12 @@
             "changes": [
                 "model-output/QMUL-ARIMA/2025-11-26-QMUL-ARIMA.csv"
             ]
+        },
+        {
+            "model": "TabPFNTS",
+            "changes": [
+                "model-output/QMUL-TabPFNTS/2025-11-26-QMUL-TabPFNTS.csv"
+            ]
         }
     ]
 }
