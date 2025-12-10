@@ -1,21 +1,9 @@
 {
     "ISI": [
         {
-            "model": "CovidABCaster",
-            "changes": [
-                "model-output/ISI-CovidABCaster/2025-04-16-ISI-CovidABCaster.csv"
-            ]
-        },
-        {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2025-04-16-ISI-CovBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-04-16-ISI-RC_AdaptEns2.csv"
+                "model-output/ISI-CovBcast/2025-12-10-ISI-CovBcast.csv"
             ]
         }
     ],
@@ -23,33 +11,49 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-04-16-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-12-10-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "QMUL": [
+        {
+            "model": "TabPFNTS",
+            "changes": [
+                "model-output/QMUL-TabPFNTS/2025-12-10-QMUL-TabPFNTS.csv"
+            ]
+        },
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-12-10-QMUL-ARIMA.csv"
             ]
         }
     ],
     "ECDC": [
         {
-            "model": "SARIMA",
+            "model": "SARIMA2",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-04-16-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA2/2025-12-10-ECDC-SARIMA2.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-04-16-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-12-10-ECDC-soca_simplex.csv"
             ]
         },
         {
-            "model": "CM_TWO_H",
+            "model": "CM_THREE",
             "changes": [
-                "model-output/ECDC-CM_TWO_H/2025-04-16-ECDC-CM_TWO_H.csv"
+                "model-output/ECDC-CM_THREE/2025-12-10-ECDC-CM_THREE.csv"
             ]
-        },
+        }
+    ],
+    "safinea": [
         {
-            "model": "CM_TWO_HC",
+            "model": "PRFM",
             "changes": [
-                "model-output/ECDC-CM_TWO_HC/2025-04-16-ECDC-CM_TWO_HC.csv"
+                "model-output/safinea-PRFM/2025-12-10-safinea-PRFM.csv"
             ]
         }
     ]
