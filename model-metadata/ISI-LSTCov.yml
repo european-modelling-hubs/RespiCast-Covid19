@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: LSTCov
+team_abbr: ISI
+model_abbr: LSTCov
+model_contributors:
+  - name: Mattia Mazzoli
+    affiliation: ISI Foundation
+    email: mattia.mazzoli@isi.it
+team_model_designation: secondary
+methods: Bidirectional Long Short Term Memory model trained over 5 years of Covid hospitalisation data from 24 countries.
+data_inputs: ECDC ERVISS.
+license: CC-BY-4.0
