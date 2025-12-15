@@ -14,5 +14,13 @@
                 "model-output/ItaLuxColab-EpiEKF/2025-12-17-ItaLuxColab-EpiEKF.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-12-17-QMUL-ARIMA.csv"
+            ]
+        }
     ]
 }
