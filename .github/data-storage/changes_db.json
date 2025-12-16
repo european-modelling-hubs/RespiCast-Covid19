@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-CovBcast/2025-12-17-ISI-CovBcast.csv"
             ]
+        },
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2025-12-17-ISI-CovidABCaster.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
