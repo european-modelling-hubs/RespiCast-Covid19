@@ -3,7 +3,13 @@
         {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2025-12-10-ISI-CovBcast.csv"
+                "model-output/ISI-CovBcast/2025-12-17-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2025-12-17-ISI-CovidABCaster.csv"
             ]
         }
     ],
@@ -11,41 +17,41 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-12-10-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-12-17-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ],
     "QMUL": [
         {
-            "model": "TabPFNTS",
+            "model": "ARIMA",
             "changes": [
-                "model-output/QMUL-TabPFNTS/2025-12-10-QMUL-TabPFNTS.csv"
+                "model-output/QMUL-ARIMA/2025-12-17-QMUL-ARIMA.csv"
             ]
         },
         {
-            "model": "ARIMA",
+            "model": "TabPFNTS",
             "changes": [
-                "model-output/QMUL-ARIMA/2025-12-10-QMUL-ARIMA.csv"
+                "model-output/QMUL-TabPFNTS/2025-12-17-QMUL-TabPFNTS.csv"
             ]
         }
     ],
     "ECDC": [
         {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2025-12-17-ECDC-CM_THREE.csv"
+            ]
+        },
+        {
             "model": "SARIMA2",
             "changes": [
-                "model-output/ECDC-SARIMA2/2025-12-10-ECDC-SARIMA2.csv"
+                "model-output/ECDC-SARIMA2/2025-12-17-ECDC-SARIMA2.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-12-10-ECDC-soca_simplex.csv"
-            ]
-        },
-        {
-            "model": "CM_THREE",
-            "changes": [
-                "model-output/ECDC-CM_THREE/2025-12-10-ECDC-CM_THREE.csv"
+                "model-output/ECDC-soca_simplex/2025-12-17-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -53,7 +59,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2025-12-10-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2025-12-17-safinea-PRFM.csv"
             ]
         }
     ]
