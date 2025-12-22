@@ -1,17 +1,17 @@
 {
-    "ISI": [
-        {
-            "model": "CovBcast",
-            "changes": [
-                "model-output/ISI-CovBcast/2025-12-17-ISI-CovBcast.csv"
-            ]
-        }
-    ],
     "ItaLuxColab": [
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-12-17-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-12-24-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-12-24-ISI-CovBcast.csv"
             ]
         }
     ]
