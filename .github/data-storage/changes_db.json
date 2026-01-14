@@ -53,6 +53,12 @@
             "changes": [
                 "model-output/ECDC-soca_simplex/2026-01-14-ECDC-soca_simplex.csv"
             ]
+        },
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-01-14-ECDC-CM_THREE.csv"
+            ]
         }
     ],
     "safinea": [
