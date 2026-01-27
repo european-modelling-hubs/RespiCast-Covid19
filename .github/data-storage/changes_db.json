@@ -48,5 +48,13 @@
                 "model-output/QMUL-TabPFNTS/2026-01-28-QMUL-TabPFNTS.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-01-28-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
