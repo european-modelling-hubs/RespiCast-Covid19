@@ -34,5 +34,13 @@
                 "model-output/ECDC-soca_simplex/2026-01-28-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-01-28-QMUL-ARIMA.csv"
+            ]
+        }
     ]
 }
