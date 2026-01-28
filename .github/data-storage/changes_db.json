@@ -11,6 +11,12 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2026-01-28-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "LSTCov",
+            "changes": [
+                "model-output/ISI-LSTCov/2026-01-28-ISI-LSTCov.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
