@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-CovBcast/2026-02-04-ISI-CovBcast.csv"
             ]
+        },
+        {
+            "model": "LSTCov",
+            "changes": [
+                "model-output/ISI-LSTCov/2026-02-04-ISI-LSTCov.csv"
+            ]
         }
     ],
     "QMUL": [
