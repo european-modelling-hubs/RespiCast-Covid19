@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-CovBcast/2026-02-11-ISI-CovBcast.csv"
             ]
+        },
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2026-02-11-ISI-CovidABCaster.csv"
+            ]
         }
     ],
     "ECDC": [
