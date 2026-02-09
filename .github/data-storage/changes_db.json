@@ -6,5 +6,13 @@
                 "model-output/ISI-CovBcast/2026-02-11-ISI-CovBcast.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-02-11-ECDC-CM_THREE.csv"
+            ]
+        }
     ]
 }
