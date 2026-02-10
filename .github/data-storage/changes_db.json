@@ -39,6 +39,12 @@
             "changes": [
                 "model-output/QMUL-TabPFNTS/2026-02-11-QMUL-TabPFNTS.csv"
             ]
+        },
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-02-11-QMUL-ARIMA.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
