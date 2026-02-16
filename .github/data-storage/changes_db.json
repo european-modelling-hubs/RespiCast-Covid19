@@ -20,5 +20,13 @@
                 "model-output/QMUL-TabPFNTS/2026-02-18-QMUL-TabPFNTS.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-02-18-ECDC-CM_THREE.csv"
+            ]
+        }
     ]
 }
