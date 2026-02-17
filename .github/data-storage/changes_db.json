@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/QMUL-TabPFNTS/2026-02-18-QMUL-TabPFNTS.csv"
             ]
+        },
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-02-18-QMUL-ARIMA.csv"
+            ]
         }
     ],
     "ECDC": [
