@@ -47,6 +47,12 @@
             "changes": [
                 "model-output/ECDC-soca_simplex/2026-03-04-ECDC-soca_simplex.csv"
             ]
+        },
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-03-04-ECDC-CM_THREE.csv"
+            ]
         }
     ],
     "safinea": [
