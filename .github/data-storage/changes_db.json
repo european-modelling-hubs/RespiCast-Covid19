@@ -28,5 +28,13 @@
                 "model-output/QMUL-ARIMA/2026-03-18-QMUL-ARIMA.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-03-18-ECDC-CM_THREE.csv"
+            ]
+        }
     ]
 }
