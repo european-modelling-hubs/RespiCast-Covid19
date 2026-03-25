@@ -3,15 +3,7 @@
         {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2026-03-18-ISI-CovBcast.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-03-18-ItaLuxColab-EpiEKF.csv"
+                "model-output/ISI-CovBcast/2026-03-25-ISI-CovBcast.csv"
             ]
         }
     ],
@@ -19,33 +11,41 @@
         {
             "model": "TabPFNTS",
             "changes": [
-                "model-output/QMUL-TabPFNTS/2026-03-18-QMUL-TabPFNTS.csv"
+                "model-output/QMUL-TabPFNTS/2026-03-25-QMUL-TabPFNTS.csv"
             ]
         },
         {
             "model": "ARIMA",
             "changes": [
-                "model-output/QMUL-ARIMA/2026-03-18-QMUL-ARIMA.csv"
+                "model-output/QMUL-ARIMA/2026-03-25-QMUL-ARIMA.csv"
             ]
         }
     ],
     "ECDC": [
         {
-            "model": "CM_THREE",
-            "changes": [
-                "model-output/ECDC-CM_THREE/2026-03-18-ECDC-CM_THREE.csv"
-            ]
-        },
-        {
             "model": "SARIMA2",
             "changes": [
-                "model-output/ECDC-SARIMA2/2026-03-18-ECDC-SARIMA2.csv"
+                "model-output/ECDC-SARIMA2/2026-03-25-ECDC-SARIMA2.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-03-18-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2026-03-25-ECDC-soca_simplex.csv"
+            ]
+        },
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-03-25-ECDC-CM_THREE.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-03-25-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ],
@@ -53,7 +53,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2026-03-18-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2026-03-25-safinea-PRFM.csv"
             ]
         }
     ]
