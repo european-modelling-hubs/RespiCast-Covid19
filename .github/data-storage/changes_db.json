@@ -42,5 +42,13 @@
                 "model-output/safinea-PRFM/2026-04-01-safinea-PRFM.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-04-01-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
     ]
 }
