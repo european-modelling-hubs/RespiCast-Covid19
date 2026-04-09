@@ -1,1 +1,5 @@
-{}
+{
+    "changes": [
+        "model-evaluation/snapshots/2026-03-25-forecast_scores.csv"
+    ]
+}
