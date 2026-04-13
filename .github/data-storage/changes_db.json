@@ -28,5 +28,19 @@
                 "model-output/QMUL-TabPFNTS/2026-04-15-QMUL-TabPFNTS.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA2",
+            "changes": [
+                "model-output/ECDC-SARIMA2/2026-04-15-ECDC-SARIMA2.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-04-15-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
