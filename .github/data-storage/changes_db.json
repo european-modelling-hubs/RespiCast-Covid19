@@ -3,7 +3,15 @@
         {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2026-04-01-ISI-CovBcast.csv"
+                "model-output/ISI-CovBcast/2026-04-15-ISI-CovBcast.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-04-15-ItaLuxColab-EpiEKF.csv"
             ]
         }
     ]
