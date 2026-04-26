@@ -6,5 +6,13 @@
                 "model-output/ISI-CovBcast/2026-04-29-ISI-CovBcast.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "TabPFNTS",
+            "changes": [
+                "model-output/QMUL-TabPFNTS/2026-04-29-QMUL-TabPFNTS.csv"
+            ]
+        }
     ]
 }
