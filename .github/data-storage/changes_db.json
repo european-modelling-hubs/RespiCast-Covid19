@@ -1,1 +1,38 @@
-{}
+{
+    "ECDC": [
+        {
+            "model": "SARIMA2",
+            "changes": [
+                "model-output/ECDC-SARIMA2/2026-05-06-ECDC-SARIMA2.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-05-06-ECDC-soca_simplex.csv"
+            ]
+        },
+        {
+            "model": "CM_THREE",
+            "changes": [
+                "model-output/ECDC-CM_THREE/2026-05-06-ECDC-CM_THREE.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-05-06-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "QMUL": [
+        {
+            "model": "TabPFNTS",
+            "changes": [
+                "model-output/QMUL-TabPFNTS/2026-05-06-QMUL-TabPFNTS.csv"
+            ]
+        }
+    ]
+}
