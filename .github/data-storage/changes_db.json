@@ -18,5 +18,13 @@
                 "model-output/ECDC-CM_THREE/2026-05-06-ECDC-CM_THREE.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-05-06-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
     ]
 }
