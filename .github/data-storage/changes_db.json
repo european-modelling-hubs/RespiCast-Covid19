@@ -3,7 +3,7 @@
         {
             "model": "CovBcast",
             "changes": [
-                "model-output/ISI-CovBcast/2026-04-29-ISI-CovBcast.csv"
+                "model-output/ISI-CovBcast/2026-05-13-ISI-CovBcast.csv"
             ]
         }
     ],
@@ -11,15 +11,21 @@
         {
             "model": "TabPFNTS",
             "changes": [
-                "model-output/QMUL-TabPFNTS/2026-04-29-QMUL-TabPFNTS.csv"
+                "model-output/QMUL-TabPFNTS/2026-05-13-QMUL-TabPFNTS.csv"
             ]
         }
     ],
-    "ItaLuxColab": [
+    "ECDC": [
         {
-            "model": "EpiEKF",
+            "model": "SARIMA2",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-04-29-ItaLuxColab-EpiEKF.csv"
+                "model-output/ECDC-SARIMA2/2026-05-13-ECDC-SARIMA2.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-05-13-ECDC-soca_simplex.csv"
             ]
         }
     ]
