@@ -3,7 +3,8 @@
         {
             "model": "hubEnsemble",
             "changes": [
-                "model-output/respicast-hubEnsemble/2026-05-27-respicast-hubEnsemble.csv"
+                "model-output/respicast-hubEnsemble/2026-05-27-respicast-hubEnsemble.csv",
+                "model-output/respicast-hubEnsemble/2026-06-03-respicast-hubEnsemble.csv"
             ]
         },
         {
