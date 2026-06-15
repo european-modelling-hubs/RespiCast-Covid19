@@ -64,7 +64,8 @@ jobs:
       run: |
         install.packages("remotes")
         install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
-        install.packages('hubData', repos = c('https://hubverse-org.r-universe.dev', 'https://cloud.r-project.org'))
+        remotes::install_github("hubverse-org/hubData")
+        # install.packages('hubData', repos = c('https://hubverse-org.r-universe.dev', 'https://cloud.r-project.org'))
         install.packages("dplyr")
         install.packages('jsonlite')
         install.packages("optparse")
