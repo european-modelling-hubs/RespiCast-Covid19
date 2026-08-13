@@ -1,1 +1,18 @@
-{}
+{
+    "QMUL": [
+        {
+            "model": "TabPFNTS",
+            "changes": [
+                "model-output/QMUL-TabPFNTS/2026-08-12-QMUL-TabPFNTS.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-08-12-safinea-PRFM.csv"
+            ]
+        }
+    ]
+}
