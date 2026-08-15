@@ -1,1 +1,10 @@
-{}
+{
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-08-19-QMUL-ARIMA.csv"
+            ]
+        }
+    ]
+}
