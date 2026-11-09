@@ -6,5 +6,13 @@
                 "model-output/QMUL-TabPFNTS/2026-11-11-QMUL-TabPFNTS.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-11-11-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
     ]
 }
